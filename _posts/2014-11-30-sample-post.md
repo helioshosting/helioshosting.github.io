@@ -4,7 +4,9 @@ title: Basic Build Outline
 published: true
 ---
 ### Foreword
-Like many others I came across this [site](https://amc.ovh/ "Automated Media Center") and was immediately intriqued by the idea of a Plex server based on unlimited cloud storage. So I did the rational thing and I immediately purchased a cheap VPS. After quite a few hours of trial and error and reading many different guides, I had the "Infinite" Plex server up and running. I chose to use Rclone rather than the acd_cli-EncFS combination, which did make the process somewhat simpler. However the performance was less than ideal, media took too long to start playing and seeking was completely broken. The mount would also go stale and Plex would not see any new media until I went through the unmount and rmeount process. And so I began my search for a more functional method for an encrypted cloud based Plex media server and that is how I discovered CloudDrive. 
+Like many others I came across this [site](https://amc.ovh/ "Automated Media Center") and was immediately intriqued by the idea of a Plex server based on unlimited cloud storage. So I did the rational thing and I immediately purchased a cheap VPS. After quite a few hours of trial and error and reading many different guides, I had the "Infinite" Plex server up and running. I chose to use Rclone rather than the acd_cli-EncFS combination, which did make the process somewhat simpler. However the performance was less than ideal, media took too long to start playing and seeking was completely broken. The mount would also go stale and Plex would not see any new media until I went through the unmount and rmeount process. And so I began my search for a more functional method for an encrypted cloud based Plex media server and that is how I discovered CloudDrive.    
+
+
 >Note: CloudDrive is not a free prodcut, there is a one time cost of $35 (There is a free 30-day evaluation period). I am not affilated with CoveGube and am recommending their product solely becasue it meets and exceeds my epectations and requirements.  
 
 ### General Overview
