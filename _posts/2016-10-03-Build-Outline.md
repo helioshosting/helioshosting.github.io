@@ -17,6 +17,8 @@ Main requirements:
 * Supported Cloud Storage Provider
 * Server or Computer Running Windows
 * StableBit CloudDrive, latest beta [here.](http://dl.covecube.com/CloudDriveWindows/beta/download/?C=M;O=D)
+
+>Note: The latest beta requires you to have an Amazon developer account, while this is free, you can also download the 631 beta from [here](http://dl.covecube.com/CloudDriveWindows/beta/download/) and avoid making a developer account. If Amazon Cloud Drive does not show up make sure you enable experimental providers in the settings.    
      
 #### Quick Setup Instructions
 Simply download CloudDrive and follow the steps to setup and mount your cloud storage as a local drive make sure to check the encryption option if you want to encrypt your data stored on the cloud (recommended). I chose to make my drive 100TB paired with a local cache of 50GB. This ensures that my most watched content stays quickly accessible. Now just add your content to the mounted drive and point Plex to it. It really is that simple. I use FileBot to automatically sort and then hard-link my media from my downloaded folder to the mounted cloud drive. CloudDrive will then automatically encrypt and upload the media. The only negative with the combination of CloudDrive and Plex is that the initial scan of my media seems to be quite slow.
