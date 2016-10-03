@@ -14,8 +14,8 @@ Like many others I came across this [site](https://amc.ovh/ "Automated Media Cen
 I have this setup currently working on a dedicated server from Online.net, but it should work on any VPS running a new enough version of Windows. This setup avoids the mess that is Fuse and instead relies on a piece of software from CoveCube called CloudDrive. CloudDrive has built in AES-256 kernel-based encryption, predictive prefetching, and a resizable local cache among other features that work great for streaming. This setup process is surprisingly simple and only requires Plex, StableBit CloudDrive, and a supported cloud storage provider. As of now the supported cloud storage providers are Amazon S3, Box, Dropbox, Google Cloud Storage, Google Drive, Microsoft Azure Storage, OneDrive, OneDrive for Business and the latest beta includes support for Amazon Cloud Drive and can be found [here.](http://dl.covecube.com/CloudDriveWindows/beta/download/?C=M;O=D) I recommend Amazon Unlimited Cloud Drive because of it's low price and exceptional speed. I have also succesfully used Google drive.
 Main requirements:
     
-* Supported Cloud Storage Provider
-* Server or Computer Running Windows
+* Supported Cloud Storage Provider (I have tried both Amazon cloud drive and Google drive)
+* Server or Computer Running Windows (I use Windows server 2012)
 * StableBit CloudDrive, latest beta [here.](http://dl.covecube.com/CloudDriveWindows/beta/download/?C=M;O=D)
 
 >Note: The latest beta requires you to have an Amazon developer account to use Amazon cloud drive, while this is free, you can also download the 631 beta from [here](http://dl.covecube.com/CloudDriveWindows/beta/download/) and avoid making a developer account. If Amazon Cloud Drive does not show up make sure you enable experimental providers in the settings.    
