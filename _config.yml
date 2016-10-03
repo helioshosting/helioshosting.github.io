@@ -12,8 +12,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>As of now this process only works for Windows, at least until StableBit releaes a Linux version of CloudDrive. </p>
-     <p>This guide should work on most versions of Windows.</p>
+     <p>As of now this process only works for Windows, at least until StableBit releaes a Linux version of CloudDrive. This guide should work on most versions of Windows.</p>
 
   header_text_feature_image:
   footer_text: >
