@@ -5,8 +5,8 @@ url: "http://helioshosting.co" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: Helios Hosting
+  avatar: ic_play_circle_outline_black_48dp_2x.png
   gravatar: # Email MD5 hash
   description: "A Better 'Infnite' Plex Media Server" # used by search engines
 
@@ -27,7 +27,7 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "helioshosting.github.io"
   google_plus:
   instagram:
   linkedin:  # Full URL
